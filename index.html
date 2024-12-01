@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1 id="logado"></h1>
+
+    <button onclick="sair()">Sair</button>
+
+    <script src="./assets/js/index.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-auth-compat.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyC4RwMJQY8OuNXQBk55hsLhbqYP5UBoO_U",
+            authDomain: "cadastro-aluno-professor.firebaseapp.com",
+            projectId: "cadastro-aluno-professor",
+            storageBucket: "cadastro-aluno-professor.firebasestorage.app",
+            messagingSenderId: "288400452224",
+            appId: "1:288400452224:web:2d8fa026d2e0973a09d465"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</body>
+</html>
